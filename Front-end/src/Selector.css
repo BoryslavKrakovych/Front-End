@@ -1,0 +1,16 @@
+.selector {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selector label {
+  margin-bottom: 5px;
+}
+
+.selector select,
+.selector input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

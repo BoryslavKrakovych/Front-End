@@ -1,0 +1,16 @@
+.poster {
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.poster img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+}

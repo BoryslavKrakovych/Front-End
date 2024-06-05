@@ -1,0 +1,23 @@
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+
+.carousel-item {
+  margin: 0 10px;
+}
+
+.carousel-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item.active .carousel-image {
+  transform: scale(1.1);
+}
+
+
